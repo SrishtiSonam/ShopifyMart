@@ -1,0 +1,22 @@
+{
+  "id": 1234567890,
+  "email": "johndoe@example.com",
+  "created_at": "2024-06-04T10:00:00Z",
+  "line_items": [
+    {
+      "title": "Test Product",
+      "quantity": 1,
+      "price": "29.99"
+    }
+  ],
+  "total_price": "29.99",
+  "shipping_address": {
+    "first_name": "John",
+    "last_name": "Doe",
+    "address1": "123 Street",
+    "city": "New York",
+    "province": "NY",
+    "country": "United States",
+    "zip": "10001"
+  }
+}
