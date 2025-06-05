@@ -1,5 +1,8 @@
 # ShopifyMart
 
+
+## 1. Intro
+
 It is a backend integration project for Shopify that allows merchants and developers to perform complete CRUD operations on Customers and Orders using the Shopify Admin GraphQL API. It also supports real-time webhook handling for order creation and pushes order data into a queue for background processing using RabbitMQ. MongoDB is used as the primary database for persisting customer and order data.
 
 
@@ -20,12 +23,12 @@ It is a backend integration project for Shopify that allows merchants and develo
 
 | Layer       | Technology                          |
 |-------------|-------------------------------------|
+| Testing     | Postman                             |
+| Database    | MongoDB                             |
 | Backend     | Node.js + Express                   |
 | Shopify API | Admin GraphQL API                   |
 | Queue       | RabbitMQ (AMQP protocol)            |
-| Database    | MongoDB                             |
 | HTTPS       | Self-signed SSL (certs folder)      |
-| Testing     | Postman                             |
 
 ---
 
